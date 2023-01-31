@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import plotly.express as px
 
 myclient = MongoClient("mongodb://localhost:27017/")
-mydb = myclient["jiangsu"]
+mydb = myclient["Jiangsu"]
 data_col = mydb["data"]
 
 with open('江苏省.json', encoding='utf-8') as f:
